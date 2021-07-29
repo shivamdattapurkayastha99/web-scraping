@@ -16,7 +16,7 @@ all_links=set()
 
 for link in anchors:
     if link.get('href')!="#":
-        link_Text="https://www.codewithharry.com"+link.get('href')
+        link_Text="https://www.facebook.com"+link.get('href')
         all_links.add(link_Text)
         # print(link_Text)
 navbarSupportedContent=soup.find(id="navbarSupportedContent")
